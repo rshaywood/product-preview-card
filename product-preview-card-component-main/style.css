@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    margin: auto;
+}
+
+.container {
+    width: 45%;
+    display: flex;
+    margin: auto;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+}
+
+.fancyFont {
+    font-family: 'Fraunces', serif;
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#details {
+    border-radius: 0rem 1rem 1rem 0rem;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+}
+
+#image {
+    width: 50%;
+}
+
+#price {
+    padding-right: 50px;
+    color: hsl(158, 36%, 37%)
+}
+#origPrice {
+    text-decoration-line: line-through;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+}
+
+#cart {
+    width: 1rem;
+}
+
+button {
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    height: 2.5rem;
+    width: 12rem;
+    border-radius: .4rem;
+    margin: auto;
+}
+
+.attribution {
+    font-size: 11px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
